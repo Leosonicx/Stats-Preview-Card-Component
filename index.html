@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Desafio Creme - Stats Preview Card Component </title>
+</head>
+<body>
+    <main class="card-quebrado">
+        <div class="card-conteudo">
+          <h1>Get <span>insights</span> that help your business grow.</h1>
+          <p>
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          
+          
+          <div class="estatisticas">
+            <p class="estatisticas-texto">
+              10k +
+              <span>COMPANIES</span>
+            </p>
+            <p class="estatisticas-texto">
+              314
+              <span>TEMPLATES</span>
+            </p>
+            <p class="estatisticas-texto">
+              12M+
+              <span>QUERIES</span>
+            </p>
+          </div>
+        </div>
+
+
+        <div class="card-imagem">
+          <div class="card-layer" aria-hidden="true"></div>
+          <img
+            srcset="
+              ./images/image-header-mobile.jpg 1000w,
+              ./images/image-header-desktop.jpg   500w
+            "
+            sizes="(max-width: 500px) 280px,
+                      (max-width: 1000px) 440px,
+                      100px"
+            src="images/image-header-desktop.jpg"
+            alt=""
+          />
+        </div>
+      </main>
+</body>
+</html>
